@@ -1,4 +1,6 @@
 project_euler_js
 ================
 
-Project Euler Solutions in JavaScript
+****SPOILER*****
+
+These are my solutions to the Project Euler, projecteuler.net, problems in JavaScript! Hopefully you've already tried these out on your own!
