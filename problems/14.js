@@ -14,23 +14,20 @@ Which starting number, under one million, produces the longest chain?
 NOTE: Once the chain starts the terms are allowed to go above one million.
 */
 solutions[14] = function() {
-	var answer 	= 0,
-		l 		= 0,
-		longest = 1,
-		n 		= 0;
+	var answer 	= 0;
+	var l 		= 0;
+	var longest = 1;
+	var n 		= 0;
+	var i;
 
-	for(var i = 1; i < 1000000; i++){
+	for(i = 1; i < 1000000; i++){
 		n = i;
 		l = 0;
 
 		while(n !== 1){
 
-			if(n % 2 === 0){
-				n = n / 2;
-			}
-			else{
-				n = (3 * n) + 1;
-			}
+			if(n % 2 === 0) n = n / 2;
+			else n = (3 * n) + 1;
 			l++;
 		}
 

@@ -10,9 +10,9 @@ Hence the difference between the sum of the squares of the first ten natural num
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 */
 solutions[6] = function() {
-	var 	answer = 0,
-		sumSquares = 0,
-		squareSums = 0;
+	var 	answer = 0;
+	var	sumSquares = 0;
+	var	squareSums = 0;
 
 	for(var i = 1; i <= 100; i++){
 		sumSquares += (i * i);

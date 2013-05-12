@@ -5,9 +5,10 @@ What is the smallest positive number that is evenly divisible by all of the numb
 */
 solutions[5] = function() {
 
-	var answer 		= 0,
-		found 		= false,
-		isDivisible = true;
+	var answer 		= 20;
+	var found 		= false;
+	var isDivisible = true;
+	var i;
 
 	while(!found){
 		answer++;
@@ -21,9 +22,7 @@ solutions[5] = function() {
 			}
 		}
 
-		if(isDivisible){
-			found = true;
-		}
+		if(isDivisible) found = true;
 	}
 	console.log("Problem 5. " + answer);
 }
