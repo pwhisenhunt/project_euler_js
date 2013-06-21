@@ -3,7 +3,7 @@
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 */
-solutions[5] = function() {
+var problem5 = function() {
 
 	var answer 		= 20;
 	var found 		= false;
@@ -26,3 +26,4 @@ solutions[5] = function() {
 	}
 	console.log("Problem 5. " + answer);
 }
+problem5();

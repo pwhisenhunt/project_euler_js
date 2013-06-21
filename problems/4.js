@@ -3,7 +3,7 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 */
-solutions[4] = function() {
+var problem4 = function() {
 	var answer = 0;
 	var i, j;
 
@@ -20,3 +20,4 @@ solutions[4] = function() {
 	}
 	console.log("Problem 4. " + answer);
 }
+problem4();
