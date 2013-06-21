@@ -3,15 +3,15 @@ project_euler_js
 
 ****SPOILER*****
 
-To run the problems just:
+Run the problems using node.js from command line as follows:
 
 ```
-// install npm modules
+// install necessary npm modules
 npm install
 cd problems
-// run whatever problem you want
+// to run a specific problem
 node 1.js
-// or run all of the problems
+// to run all of the problems at once
 node run.js
 ```
 
