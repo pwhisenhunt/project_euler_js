@@ -38,4 +38,4 @@ var problem14 = function() {
 	}
 	console.log("Problem 14. " + answer);
 }
-problem14()
+exports.problem14 = problem14();

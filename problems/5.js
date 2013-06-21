@@ -26,4 +26,4 @@ var problem5 = function() {
 	}
 	console.log("Problem 5. " + answer);
 }
-problem5();
+exports.problem5 = problem5();

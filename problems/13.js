@@ -15,4 +15,4 @@ var problem13 = function() {
         console.log("Problem 13. " + count.toString(10).substring(0, 10));
     });
 }
-problem13();
+exports.problem13 = problem13();

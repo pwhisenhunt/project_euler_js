@@ -22,4 +22,4 @@ var problem6 = function() {
 	answer = (squareSums * squareSums) - sumSquares;
 	console.log("Problem 6. " + answer);
 }
-problem6();
+exports.problem6 = problem6();

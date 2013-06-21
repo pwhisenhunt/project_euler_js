@@ -13,4 +13,4 @@ var problem1 = function(n) {
 	}
 	console.log("Problem 1. " + answer);
 }
-problem1(1000);
+exports.problem1 = problem1(1000);

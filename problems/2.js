@@ -21,4 +21,4 @@ var problem2 = function(n) {
 	}
 	console.log("Problem 2. " + answer);
 }
-problem2(4000000);
+exports.problem2 = problem2(4000000);

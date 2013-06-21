@@ -25,4 +25,4 @@ var problem9 = function() {
     }
     console.log("Problem 9. " + product);
 }
-problem9();
+exports.problem9 = problem9();

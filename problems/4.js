@@ -20,4 +20,4 @@ var problem4 = function() {
 	}
 	console.log("Problem 4. " + answer);
 }
-problem4();
+exports.problem4 = problem4();
